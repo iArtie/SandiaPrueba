@@ -30,6 +30,7 @@ namespace Infraestructure.ActivosFijos
             return activoFijos;
         }
 
+        //owo
         public int GetLastActivoFijoId()
         {
             return (activoFijos == null) ? 0 : activoFijos[activoFijos.Length - 1].Id;
